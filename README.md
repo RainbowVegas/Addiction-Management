@@ -7,5 +7,3 @@ App Created on 1/30/24
 Current API level: 34 (Android 14.0 "UpsideDownCake")
 
 External API's Used: Google Maps, Spotify
-
-Please send any questions to gwbabick@syr.edu
