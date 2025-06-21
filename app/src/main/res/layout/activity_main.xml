@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back_user"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/streakCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/days_in_a_row_count" />
+
+    <Button
+        android:id="@+id/button_resist_addiction"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/resist_addiction"
+        android:background="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/streakCountTextView"
+        android:layout_marginTop="32dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/digitalDiaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/digital_diary"
+        android:background="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/button_resist_addiction"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/walkButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/go_for_a_walk"
+        android:background="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/digitalDiaryButton"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/musicButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/listen_to_music"
+        android:background="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/walkButton"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/buttonViewEntries"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/view_entries"
+        android:background="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/musicButton"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp" />
+
+</RelativeLayout>
+

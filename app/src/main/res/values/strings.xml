@@ -1,0 +1,14 @@
+<resources>
+        <string name="app_name"><b><font size="30" color="#4CAF50">🌟 Addiction Management 24 🌟</font></b></string>
+        <string name="welcome_back_user"><b><font size="25" color="#800080">🌟Addiction Management🌟 </font></b></string>
+        <string name="days_in_a_row_count">Streak 🔥</string>
+        <string name="resist_addiction">Accountability Tracker 💪</string>
+        <string name="go_for_a_walk">Go for a walk 🚶</string>
+        <string name="listen_to_music">Listen to Music 🎧</string>
+        <string name="about_you">🌟 About you:</string>
+        <string name="digital_diary">Digital Diary 📝</string>
+        <string name="diary_entry_hint">How are you feeling today?</string>
+        <string name="save_entry">Save Entry</string>
+        <string name="view_entries">View Diary Entries</string>
+</resources>
+

@@ -1,0 +1,8 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="gray_button">#D3D3D3</color>
+
+    <color name="gray_button_border">#A9A9A9</color>
+</resources>
